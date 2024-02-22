@@ -15,12 +15,12 @@ function unico (){
 function interruptor (){
     if(!quebrada()){
         if(!unico()){
-        lampada.src = 'img/desligada.jpg'
-        texto.innerHTML = 'A lâmpada está DESLIGADA :|'
-      }
-        else{
         lampada.src = 'img/ligada.jpg'
         texto.innerHTML = 'A lâmpada está LIGADA :)'
+      }
+        else{
+        lampada.src = 'img/desligada.jpg'
+        texto.innerHTML = 'A lâmpada está DESLIGADA :|'
       }
     }
 }
