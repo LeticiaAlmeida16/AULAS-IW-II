@@ -14,7 +14,7 @@ function unico (){
 
 function interruptor (){
     if(!quebrada()){
-        if(!unico()){
+        if(unico()){
         lampada.src = 'img/ligada.jpg'
         texto.innerHTML = 'A lâmpada está LIGADA :)'
       }
