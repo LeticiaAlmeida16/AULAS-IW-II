@@ -16,11 +16,11 @@ function interruptor (){
     if(!quebrada()){
         if(!unico()){
         lampada.src = 'img/desligada.jpg'
-        texto.innerHTML = 'A lâmpada está DESLIGADA'
+        texto.innerHTML = 'A lâmpada está DESLIGADA :|'
       }
         else{
         lampada.src = 'img/ligada.jpg'
-        texto.innerHTML = 'A lâmpada está LIGADA'
+        texto.innerHTML = 'A lâmpada está LIGADA :)'
       }
     }
 }
@@ -28,20 +28,20 @@ function interruptor (){
 function lampLigada(){
     if(!quebrada()){
         lampada.src = "img/ligada.jpg"
-        texto.innerHTML = 'A lâmpada está LIGADA'
+        texto.innerHTML = 'A lâmpada está LIGADA :)'
     }
 }
 
 function lampDesligada(){
     if(!quebrada()){
         lampada.src = "img/desligada.jpg"
-        texto.innerHTML = 'A lâmpada está DESLIGADA'
+        texto.innerHTML = 'A lâmpada está DESLIGADA :|'
     }
 }
 
 function lampQuebrada(){
     lampada.src = "img/quebrada.jpg"
-    texto.innerHTML = 'A lâmpada está QUEBRADA'
+    texto.innerHTML = 'A lâmpada está QUEBRADA :('
 }
 
 
