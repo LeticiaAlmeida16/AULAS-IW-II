@@ -1,9 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
-    background-color: #AFCDEA;
-    color: black;
+    background-color: #B6D6F2;
+}
+div{
+    width: 60%;
+    background-color: #98C3ED;
+    border-radius: 40px;
+    padding: 2%;
     text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    box-shadow: 0 10px 20px #318CE7;
+}
+h1{
+    font-family: Pacifico;
+    font-size: 2em;
+    padding-bottom: 1%;
+    text-shadow: 2px 2px 5px rgb(49, 140, 231);
+}
+button, input{
+    background-color: #6AA9E9;
+    padding: 0.6%;
+    border-radius: 11px;
+    margin: 2%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: Montserrat;
+    color: #000066;
+}
+p{
+    font-family: IBM Plex Sans;
+    color: #000066;
+    font-size: 1.1em;
+}
+h2{
+    margin-top: 1%;
+    font-family: Montserrat;
+    font-size: 1.2em;
+    padding-bottom: 1%;
+    text-shadow: 2px 2px 5px rgb(49, 140, 231);
 }
 
-#NOME{
-    background-color: #98C3ED;
-}
