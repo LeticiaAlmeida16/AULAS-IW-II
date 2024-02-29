@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="NOME">
+    <h1>Bem vindo a Calculadora da Lelê</h1>
+    <h3>Digite seu nome: </h3>
+    <input id="nome" name="nome" value="" type="text">
+    <button id="botao" onclick="pegaNome()">Clique!</button>
+    <p id="result">Aqui vai aparecer seu nome</p>
+    </div>
+
+    <h3>Digite o primeiro número: </h3>
+    <input id="num1" name="num1" value="" type="text">
+    <h3>Digite o segundo número: </h3>
+    <input id="num2" name="num2" value="" type="text">
+
+    <h2>Escolha a opção</h2>
+    <button id="soma" onclick="somaPega()">SOMA</button>
+    <button id="sub" onclick="subPega()">SUBTRAÇÃO</button>
+    <button id="mult" onclick="multPega()">MULTIPLICAÇÃO</button>
+    <button id="divi" onclick="diviPega()">DIVISÃO</button>
+    <button id="limpa" onclick="limpaPega()">LIMPAR</button>
+
+    <h3>O resultado da conta é: <span id = 'resultConta'>0</span></h3>
+
+    <script src="js/excuta.js"></script>
+</body>
+</html>
