@@ -9,7 +9,14 @@ main{
 }
 
 button{
-    width: 80px;
+    width: 90px;
+}
+h3{
+    font-family: Pacifico;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+    margin: 1.2%;
+    text-shadow: 2px 2px 5px rgb(199, 202, 216);
 }
 
 #ligar{
