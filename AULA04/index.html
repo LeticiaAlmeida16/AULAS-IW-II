@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="js/excuta.js">
-    <title>IMC</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>IMC - calculadora</title>
 </head>
 <body>
-    <h1>CALCULADORA IMC</h1>
+    <div>
+    <h1>CALCULADORA IMC - Índice de Massa Corpórea </h1>
 
     <p>Digite seu peso(ex: 60.5): </p>
-    <input id="peso" name="peso" value="" type="text">
+    <input id="peso" name="peso" value="" type="float">
 
     <p>Digite sua altura(ex: 1.60): </p>
-    <input id="altura" name="altura" value="" type="text">
+    <input id="altura" name="altura" value="" type="float">
 
-    <p>Informe seu sexo: </p>
-    <select name="select">
-        <option id="fem" name="fem" value="fem">FEMININO</option>
-        <option id="masc" name="masc" value="masc" selected>MASCULINO</option>
+    <p>Informe seu gênero: </p>
+    <select name="genero" id="genero">
+        <option id="" value="">SELECIONE</option>
+        <option id="fem" value="fem">FEMININO</option>
+        <option id="masc" value="masc">MASCULINO</option>
     </select>
 
     <p><button id="calcular" onclick="calcular()">CALCULAR</button></p>
 
-    <h1>O seu IMC é: <span id = 'resultIMC'>0</span></h1>
-    <h1>Diagnóstico: <span id = 'diag'>0</span></h1>
-
+    <p>O seu IMC é de: <span id = "resultIMC">0</span></p>
+    <p>Diagnóstico: <span id = "diagValor">0</span></p>
     <button id="limpa" onclick="limpa()">NOVO CÁLCULO</button>
+    </div>
     
-    <script src="js/excuta.js"></script>
+    <script src="js/imc.js"></script>
 </body>
 </html>
