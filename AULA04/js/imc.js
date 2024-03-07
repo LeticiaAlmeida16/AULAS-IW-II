@@ -57,8 +57,8 @@ function diag(calcular){
 }
 
 function limpa(){
-    var peso = parseFloat(document.getElementById('peso').value)
-    var altura = parseFloat(document.getElementById('altura').value)
+    var peso = document.getElementById('peso').value
+    var altura = document.getElementById('altura').value
     peso.value = ""
     altura.value = ""
     resultIMC.innerHTML = ""
