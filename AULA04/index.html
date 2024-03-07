@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js/excuta.js">
+    <title>IMC</title>
+</head>
+<body>
+    <h1>CALCULADORA IMC</h1>
+
+    <p>Digite seu peso(ex: 60.5): </p>
+    <input id="peso" name="peso" value="" type="text">
+
+    <p>Digite sua altura(ex: 1.60): </p>
+    <input id="altura" name="altura" value="" type="text">
+
+    <p>Informe seu sexo: </p>
+    <select name="select">
+        <option id="fem" name="fem" value="fem">FEMININO</option>
+        <option id="masc" name="masc" value="masc" selected>MASCULINO</option>
+    </select>
+
+    <p><button id="calcular" onclick="calcular()">CALCULAR</button></p>
+
+    <h1>O seu IMC é: <span id = 'resultIMC'>0</span></h1>
+    <h1>Diagnóstico: <span id = 'diag'>0</span></h1>
+
+    <button id="limpa" onclick="limpa()">NOVO CÁLCULO</button>
+    
+    <script src="js/excuta.js"></script>
+</body>
+</html>
