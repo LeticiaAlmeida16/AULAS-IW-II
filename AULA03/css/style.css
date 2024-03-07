@@ -32,6 +32,19 @@ button, input{
     font-family: Montserrat;
     color: #000066;
 }
+
+#nome, #num1, #num2{
+    background-color:rgb(217, 233, 247);
+    padding: 0.6%;
+    border-radius: 11px;
+    margin: 2%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: Montserrat;
+    color: #000066;
+}
 p{
     font-family: IBM Plex Sans;
     color: #000066;

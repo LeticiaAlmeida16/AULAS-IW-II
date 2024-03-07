@@ -2,7 +2,8 @@ var result = document.getElementById('result')
 
 function pegaNome(){
     var nome = document.getElementById('nome').value
-    result.innerHTML = nome
+    result.innerHTML = "Vamos começar, " + nome + "!"
+    botao.innerHTML = "Ok!"
 }
 
 function somaPega(){
