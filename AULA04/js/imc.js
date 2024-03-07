@@ -55,3 +55,12 @@ function diag(calcular){
         diagValor.innerHTML = 'Erro de dados'
     }
 }
+
+function limpa(){
+    var peso = parseFloat(document.getElementById('peso').value)
+    var altura = parseFloat(document.getElementById('altura').value)
+    peso.value = ""
+    altura.value = ""
+    resultIMC.innerHTML = ""
+    diagValor.innerHTML = ""
+}
