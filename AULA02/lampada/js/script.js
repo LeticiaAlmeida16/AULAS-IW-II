@@ -3,7 +3,7 @@ const desligar = document.getElementById('desligar')
 const lampada = document.getElementById('lamp')
 const inter = document.getElementById('inter')
 const texto = document.getElementById('texto')
-const limpaTudo = document.getElementById('limpar')
+const limpaTudo = document.getElementById('limpaTudo')
 
 function quebrada(){
     return lampada.src.indexOf('quebrada') > -1
