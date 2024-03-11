@@ -1,6 +1,3 @@
-/* var resultIMC = document.getElementById('resultIMC')
-var diagValor = document.getElementById('diag') */
-
 function calcular(){
     var peso = parseFloat(document.getElementById('peso').value)
     var altura = parseFloat(document.getElementById('altura').value)
@@ -57,10 +54,9 @@ function diag(calcular){
 }
 
 function limpa(){
-    var peso = document.getElementById('peso').value
-    var altura = document.getElementById('altura').value
     peso.value = ""
     altura.value = ""
     resultIMC.innerHTML = ""
     diagValor.innerHTML = ""
+    genero.value = ""
 }
