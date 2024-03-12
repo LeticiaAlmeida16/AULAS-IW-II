@@ -1,3 +1,5 @@
+var img = document.querySelector('#img');
+
 function calcular(){
     var peso = parseFloat(document.getElementById('peso').value)
     var altura = parseFloat(document.getElementById('altura').value)
@@ -31,6 +33,7 @@ function diag(calcular){
     else if(genero == 'fem'){
         if (calcular<19){
             diagValor.innerHTML = 'Abaixo do peso normal'
+            img = img.setAttribute('src','imc1.png')
         }
         else if(calcular >= 19 && calcular<24){
             diagValor.innerHTML = 'Normal'

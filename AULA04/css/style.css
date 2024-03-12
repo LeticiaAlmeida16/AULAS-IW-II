@@ -2,10 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-color:ghostwhite;
+    background-color: #fff7dd;
+    ;
 }
 section {
-    background-color: rgb(208, 182, 242);
+    background-color: #FCE8A5;
     color: #070707;
     padding: 2%;
     margin: auto;
@@ -14,41 +15,47 @@ section {
     padding-bottom: 2%;
     width: 55%;
     text-align: center;
-    box-shadow: 0 10px 20px rgb(82, 69, 110);
-
+    box-shadow: 0 10px 20PX #ff8d3b;
 }
 h1{
     font-family: Montserrat;
     font-size: 2em;
     padding-bottom: 2%;
-    text-shadow: 4px 4px 6px rgb(82, 69, 110);
+    text-shadow: 4px 4px 6px #ff8d3b;
 }
 p{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Montserrat;
     padding-bottom: 1%;
 }
 
 button, input, select{
-    background-color: rgb(162, 138, 194);
+    background-color: #f8ffac;
     padding: 0.7%;
     margin: 2%;
-    border-radius: 15px;
+    border-radius: 14px;
     margin: auto;
     margin-bottom: 1%;
     margin-top: 1.2%;
-    font-family: IBM Plex Sans;
+    font-family:Montserrat;
     color: #050505;
 }
 
 .col-6{
     width: 50%;
     text-align: center;
-    border: 3px solid black; 
-    border-style: dotted;
+    
+}
+img{
+    width: 60%;
+    margin: auto;
+    margin: 8%;
+
 }
 .linha {
     display: flex;
     text-align: center;
     padding: 1%;
+    border: 3px solid black; 
+    border-style: dotted;
 }
 
