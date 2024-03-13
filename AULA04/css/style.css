@@ -6,7 +6,7 @@ body{
     ;
 }
 section {
-    background-color: #FCE8A5;
+    background-color: #fcfaa5;
     color: #070707;
     padding: 2%;
     margin: auto;
@@ -25,18 +25,20 @@ h1{
 }
 p{
     font-family:Montserrat;
-    padding-bottom: 1%;
+    padding-bottom: 1.5%;
+    font-weight: bold;
 }
 
 button, input, select{
     background-color: #f8ffac;
     padding: 0.7%;
-    margin: 2%;
+    margin: 2.2%;
     border-radius: 14px;
     margin: auto;
     margin-bottom: 1%;
     margin-top: 1.2%;
     font-family:Montserrat;
+    font-weight: bold;
     color: #050505;
 }
 
@@ -57,5 +59,15 @@ img{
     padding: 1%;
     border: 3px solid black; 
     border-style: dotted;
+    width: 90%;
+    margin: auto;
+}
+#res{
+    font-weight: bold;
+    text-shadow: 4px 4px 6px #ff8d3b;
+    font-size: 1.3em;
+}
+#calcular{
+    background-color: #ff8d3b;
 }
 
