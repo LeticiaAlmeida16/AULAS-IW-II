@@ -1,4 +1,4 @@
-var img = document.querySelector('#img');
+const img = document.getElementById('img')
 
 function calcular(){
     var peso = parseFloat(document.getElementById('peso').value)
@@ -12,7 +12,8 @@ function diag(calcular){
     var genero = document.getElementById('genero').value
     if(genero == 'masc'){
         if (calcular<20){
-            diagValor.innerHTML = 'Abaixo do peso normal'
+            diagValor.innerHTML = 'Abaixo do peso'
+            // img.src = 'img/IMC6.png'
         }
         else if(calcular >= 20 && calcular<25){
             diagValor.innerHTML = 'Normal'
@@ -32,7 +33,7 @@ function diag(calcular){
     }
     else if(genero == 'fem'){
         if (calcular<19){
-            diagValor.innerHTML = 'Abaixo do peso normal'
+            diagValor.innerHTML = 'Abaixo do peso'
             img = img.setAttribute('src','imc1.png')
         }
         else if(calcular >= 19 && calcular<24){
