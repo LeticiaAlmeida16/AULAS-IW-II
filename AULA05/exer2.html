@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCÍCIO 2</title>
+</head>
+<body>
+    <h1>INTERAGINDO COM O USUÁRIO</h1>
+    <button id="cliNom" onclick="clique()">CLIQUE PARA COMEÇAR</button>
+    <p><span id="mensagem"></span></p>
+    
+    <script >
+        function clique(){
+            var nome = prompt('Qual é seu nome: ')
+            console.log(typeof(nome))
+            mensagem.innerHTML = "Olá, " +nome+ "! Prazer em te conhecer."
+        }
+    </script>
+</body>
+</html>
