@@ -8,7 +8,28 @@
 </head>
 <body>
     <h1>REAJUSTE SALARIAL</h1>
-    <button id="reaj" onclick="prod()">REAJUSTAR SALÁRIO</button>
-    <p>Você irá comprar<span id="produto"> - </span>por <span id="valor"> - </span></p>
+    <p>Clique no botão para iniciar!</p>
+    <button id="reaj" onclick="reaj()">REAJUSTAR SALÁRIO</button>
+    
+    <p>O(a) <span id="nome">nome</span> recebeu um aumento salarial!</p>
+    <p>O salário atual era de <span id="salario">0</span> reais.</p>
+    <p>Com aumento de <span id="porc">0</span>% , o salário vai aumentar <span id="aumento">0</span> reais.</p>
+    <p>E a partir daí, <span id="funcionario">nome</span> vai passar a receber um valor de <span id="final">0</span> reais.</p>
+
+    <script >
+        function reaj(){
+            var NOMEFUNC = prompt('Informe o nome do funcionário: ')
+            var SALARIO = parseFloat(prompt('Informe o valor do salário de ' + NOMEFUNC + ': '))
+            var PORC = parseFloat(prompt('Qual a porcentagem que o salário de ' + NOMEFUNC + ' será ajustado? '))
+            nome.innerHTML = NOMEFUNC
+            funcionario.innerHTML = NOMEFUNC
+            salario.innerHTML = SALARIO 
+            porc.innerHTML = PORC
+            soma = (PORC*SALARIO)/100
+            aumento.innerHTML = soma
+            final.innerHTML= SALARIO + soma
+
+        }
+    </script>
 </body>
 </html>

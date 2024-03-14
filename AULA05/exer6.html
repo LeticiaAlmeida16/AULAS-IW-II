@@ -9,12 +9,25 @@
 <body>
     <h1>CALCULADORA DE TRONCO</h1>
     <button id="prod" onclick="prod()">COMPRAR PRODUTO</button>
-    <p>Você irá comprar<span id="produto"> - </span>por <span id="valor"> - </span></p>
-    <p>Você deu<span id="valor"></p>
-    <p>Você reberá troco de <span id="troco"> - </span></p>
+    <p>Você irá comprar <span id="produto"> produto </span> por <span id="valor"></span>  reais.</p>
+    <p>Você deu <span id="deu"></span> reais.</p>
+    <p>Você reberá troco de <span id="troco"> 0 </span> reais.</p>
+    <p><span id="insu"></span></p>
 
     <script >
-        
+        function prod(){
+            var prod = prompt('Informe o nome do produto: ')
+            var preco = parseFloat(prompt('Informe o valor do produto: '))
+            var dinh = parseFloat(prompt('Informe o valor recebido: '))
+            produto.innerHTML = prod
+            valor.innerHTML = preco 
+            deu.innerHTML = dinh
+            troco.innerHTML = dinh - preco
+
+            if (dinh < preco){
+                insu.innerHTML = "Compra cancelada. Dinheiro insuficiente!"
+            }
+        }
     </script>
 </body>
 </html>

@@ -8,14 +8,29 @@
 </head>
 <body>
     <h1>INTERAGINDO COM O USUÁRIO</h1>
-    <p><span id="menCor"></span></p>
+    <h1><span id="mensCor">Texto receberá a cor que vc clicar.</span></h1>
     <button id="bot1" onclick="bot1()">VERMELHO</button>
     <button id="bot2" onclick="bot2()">AZUL</button>
     <button id="bot3" onclick="bot3()">VERDE</button>
     <p><span id="menBots"></span></p>
     
     <script >
-        
+        var verm = ("#FF0000")
+        var azul = ("#40BFC1")
+        var ver = ("#229A00")
+
+        function bot1() {
+            var bot1 = mensCor.style.color = verm
+            var bot1 = menBots.innerHTML = ("Você clicou no botão 01.")
+        }
+        function bot2() {
+            var bot2 = mensCor.style.color = azul
+            var bot2 = menBots.innerHTML = ("Você clicou no botão 02.")
+        }
+        function bot3() {
+            var bot3 = mensCor.style.color = ver
+            var bot3 = menBots.innerHTML = ("Você clicou no botão 03.")
+        }
     </script>
 </body>
 </html>
