@@ -69,6 +69,14 @@ button {
     background-color: #ffc107;
     color: black;
 }
+#btred{
+    background-color: #ff0707;
+    color: rgb(255, 255, 255);
+}
+#btgreen{
+    background-color: #70fa00;
+    color: black;
+}
 
 /* articles com a class box */
 .box {
@@ -106,4 +114,13 @@ button {
 .yellow {
     background: #ffc107;
     color: black;
+}
+
+.green{
+    background-color: #70fa00;
+    color: black;
+}
+.red{
+    background-color: #ff0707;
+    color: rgb(255, 255, 255);
 }

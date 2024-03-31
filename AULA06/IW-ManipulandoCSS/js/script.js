@@ -32,11 +32,17 @@ let btnblue = document.querySelector('#btblue')
 
 let btnyellow = document.querySelector('#btyellow')
 
+let btnred = document.querySelector('#btred')
+
+let btngreen = document.querySelector('#btgreen')
+
 btnDark.addEventListener('click', modoDark)
 btnLight.addEventListener('click', modoLight)
 btnpink.addEventListener('click', modopink)
 btnblue.addEventListener('click', modoblue)
 btnyellow.addEventListener('click', modoyellow)
+btnred.addEventListener('click', modored)
+btngreen.addEventListener('click', modogreen)
 
 function modoDark() {
     event.preventDefault();
@@ -46,6 +52,8 @@ function modoDark() {
     tela.classList.remove("pink");
     tela.classList.remove("blue");
     tela.classList.remove("yellow");
+    tela.classList.remove("red");
+    tela.classList.remove("green");
 }
 
 function modoLight() {
@@ -56,6 +64,8 @@ function modoLight() {
     tela.classList.remove("blue");
     tela.classList.remove("yellow");
     tela.classList.add("light");
+    tela.classList.remove("red");
+    tela.classList.remove("green");
 }
 
 function modopink() {
@@ -66,6 +76,8 @@ function modopink() {
     tela.classList.remove("blue");
     tela.classList.remove("yellow");
     tela.classList.add("pink");
+    tela.classList.remove("red");
+    tela.classList.remove("green");
 }
 
 function modoblue() {
@@ -76,6 +88,8 @@ function modoblue() {
     tela.classList.remove("pink");
     tela.classList.remove("yellow");
     tela.classList.add("blue");
+    tela.classList.remove("red");
+    tela.classList.remove("green");
 }
 function modoyellow() {
     event.preventDefault();
@@ -85,7 +99,32 @@ function modoyellow() {
     tela.classList.remove("pink");
     tela.classList.remove("blue");
     tela.classList.add("yellow");
+    tela.classList.remove("red");
+    tela.classList.remove("green");
 }
+function modored() {
+    event.preventDefault();
+    console.log('modo red')
+    tela.classList.remove("dark");
+    tela.classList.remove("light");
+    tela.classList.remove("pink");
+    tela.classList.remove("blue");
+    tela.classList.remove("yellow");
+    tela.classList.remove("green");
+    tela.classList.add("red");
+}
+function modogreen() {
+    event.preventDefault();
+    console.log('modo green')
+    tela.classList.remove("dark");
+    tela.classList.remove("light");
+    tela.classList.remove("pink");
+    tela.classList.remove("blue");
+    tela.classList.remove("yellow");
+    tela.classList.remove("red");
+    tela.classList.add("green");
+}
+
 
 /*
 titulo.addEventListener('click', mudarId)
