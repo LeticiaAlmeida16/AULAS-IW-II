@@ -10,3 +10,5 @@ LINKS DOS SITES DAS AULAS DE IW-II
 (LISTA DE EXERCÍCIOS) https://leticiaalmeida16.github.io/AULAS-IW-II/AULA05/index.html
 
 (MANIPULANDO CSS) https://leticiaalmeida16.github.io/AULAS-IW-II/AULA06/IW-ManipulandoCSS/index.html
+
+(CALCULADORA PROF) https://leticiaalmeida16.github.io/AULAS-IW-II/AULA06/CalculadoradeMédiacomFlashMessage/index.html
