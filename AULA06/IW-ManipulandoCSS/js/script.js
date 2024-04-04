@@ -45,7 +45,7 @@ function modoDark() {
     tela.classList.remove("red");
     tela.classList.remove("green");
     imagem.src = 'img/black.png'
-    nomecor.textContent = 'Gato preto'
+    nomecor.textContent = 'black cat'
 }
 
 function modoLight() {
@@ -59,7 +59,7 @@ function modoLight() {
     tela.classList.remove("red");
     tela.classList.remove("green");
     imagem.src = 'img/white.jpg'
-    nomecor.textContent = 'Smile'
+    nomecor.textContent = 'smile :)'
 }
 
 function modopink() {
@@ -73,7 +73,7 @@ function modopink() {
     tela.classList.remove("red");
     tela.classList.remove("green");
     imagem.src = 'img/pink.png'
-    nomecor.textContent = 'Laço cor-de-rosa'
+    nomecor.textContent = 'pink bow'
 }
 
 function modoblue() {
@@ -87,7 +87,7 @@ function modoblue() {
     tela.classList.remove("red");
     tela.classList.remove("green");
     imagem.src = 'img/blue.png'
-    nomecor.textContent = 'Fundo do mar'
+    nomecor.textContent = 'seabed'
 }
 function modoyellow() {
     event.preventDefault();
@@ -100,7 +100,7 @@ function modoyellow() {
     tela.classList.remove("red");
     tela.classList.remove("green");
     imagem.src = 'img/yellow.png'
-    nomecor.textContent = 'Borbosol'
+    nomecor.textContent = 'butterfly + sunflower'
 }
 function modored() {
     event.preventDefault();
@@ -113,7 +113,7 @@ function modored() {
     tela.classList.remove("green");
     tela.classList.add("red");
     imagem.src = 'img/red.png'
-    nomecor.textContent = 'heart.'
+    nomecor.textContent = 'heart <3'
 }
 function modogreen() {
     event.preventDefault();
