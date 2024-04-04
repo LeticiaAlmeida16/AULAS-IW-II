@@ -1,19 +1,18 @@
 /* Arquivo JS + alterar CSS */
 
 let titulo = document.querySelector('h1')
-titulo.textContent = 'Aula 09 Manipular CSS'
+titulo.textContent = 'Manipulando CSS com JS'
 //titulo.innerHTML = 'Aula Manipular CSS'
 let imagem = document.querySelector('#foto')
-imagem.setAttribute('src', 'img/pride-fc.jpg')
+imagem.setAttribute('src', 'img/gray.png')
 imagem.setAttribute('width', '280px')
 
 /* MANIPULAR CSS */
-document.querySelector('h1').style.color = "red";
-titulo.style.color = "red";
-titulo.style.backgroundColor = "#000";
-titulo.style.borderBottom = "2px solid red";
-titulo.style.padding = "0.625rem";
-titulo.style.borderRadius = "5px";
+document.querySelector('h1').style.color = "white";
+titulo.style.color = "white";
+titulo.style.backgroundColor = "black";
+titulo.style.padding = "0.7rem";
+titulo.style.borderRadius = "29px";
 
 let box = document.querySelectorAll('.box')
 box[0].setAttribute('class', 'escura')
@@ -54,6 +53,8 @@ function modoDark() {
     tela.classList.remove("yellow");
     tela.classList.remove("red");
     tela.classList.remove("green");
+    imagem.src = 'img/black.png'
+    nomecor.textContent = 'Gato preto'
 }
 
 function modoLight() {
@@ -66,6 +67,8 @@ function modoLight() {
     tela.classList.add("light");
     tela.classList.remove("red");
     tela.classList.remove("green");
+    imagem.src = 'img/white.jpg'
+    nomecor.textContent = 'Smile'
 }
 
 function modopink() {
@@ -78,6 +81,8 @@ function modopink() {
     tela.classList.add("pink");
     tela.classList.remove("red");
     tela.classList.remove("green");
+    imagem.src = 'img/pink.png'
+    nomecor.textContent = 'Laço cor-de-rosa'
 }
 
 function modoblue() {
@@ -90,6 +95,8 @@ function modoblue() {
     tela.classList.add("blue");
     tela.classList.remove("red");
     tela.classList.remove("green");
+    imagem.src = 'img/blue.png'
+    nomecor.textContent = 'Fundo do mar'
 }
 function modoyellow() {
     event.preventDefault();
@@ -101,6 +108,8 @@ function modoyellow() {
     tela.classList.add("yellow");
     tela.classList.remove("red");
     tela.classList.remove("green");
+    imagem.src = 'img/yellow.png'
+    nomecor.textContent = 'Borbosol'
 }
 function modored() {
     event.preventDefault();
@@ -112,6 +121,8 @@ function modored() {
     tela.classList.remove("yellow");
     tela.classList.remove("green");
     tela.classList.add("red");
+    imagem.src = 'img/red.png'
+    nomecor.textContent = 'heart.'
 }
 function modogreen() {
     event.preventDefault();
@@ -123,6 +134,8 @@ function modogreen() {
     tela.classList.remove("yellow");
     tela.classList.remove("red");
     tela.classList.add("green");
+    imagem.src = 'img/green.png'
+    nomecor.textContent = 'stars'
 }
 
 
