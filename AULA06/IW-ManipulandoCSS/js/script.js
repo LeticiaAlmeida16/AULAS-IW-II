@@ -1,5 +1,3 @@
-/* Arquivo JS + alterar CSS */
-
 let titulo = document.querySelector('h1')
 titulo.textContent = 'Manipulando CSS com JS'
 //titulo.innerHTML = 'Aula Manipular CSS'
@@ -20,19 +18,12 @@ box[0].removeAttribute('class')
 
 /////// MODOS DE COR ///////
 let tela = document.querySelector('main')
-
 let btnDark = document.querySelector('#btdark')
-
 let btnLight = document.querySelector('#btlight')
-
 let btnpink = document.querySelector('#btpink')
-
 let btnblue = document.querySelector('#btblue')
-
 let btnyellow = document.querySelector('#btyellow')
-
 let btnred = document.querySelector('#btred')
-
 let btngreen = document.querySelector('#btgreen')
 
 btnDark.addEventListener('click', modoDark)
@@ -137,12 +128,3 @@ function modogreen() {
     imagem.src = 'img/green.png'
     nomecor.textContent = 'stars'
 }
-
-
-/*
-titulo.addEventListener('click', mudarId)
-function mudarId() {
-    titulo.id = 'titulo'
-    console.log(titulo.id)
-}
-*/
